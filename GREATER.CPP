@@ -1,5 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
+
+// program for find a largest number
 void main()
 {
 clrscr();
@@ -7,7 +9,7 @@ int a,b,c;
 cout<<"Enter any three number";
  cin>>a>>b>>c;
  cout<<"\n\n\n\n\n\t\t";
-if(a>b)
+if(a>b)                    // logics 
 {
 if(a>c)
 cout<<a<<" is greater";
